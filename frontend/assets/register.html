@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <br>
+        <label for="tipo-doc">Tipo de documento</label>
+        <select id="tipo-doc" name="tipo_documento" required>
+            <option value="">Seleccione</option>
+            <option value="cc">Cédula de ciudadanía</option>
+            <option value="ti">Tarjeta de identidad</option>
+            <option value="ce">Cédula de extranjería</option>
+            <option value="pasaporte">Pasaporte</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <label for="numero-doc">Número de documento</label>
+            <input type="text" id="numero-doc" name="numero_documento" required>
+        </div>
+        <br>
+        <div>
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+        <div>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div>
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div>
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <div>
+            <label for="confirmar-contrasena">Confirmar contraseña</label>
+            <input type="password" id="confirmar-contrasena" name="confirmar_contrasena" required>
+        </div>
+        <div>
+            <button type="submit">Registrarse</button>
+        </div>
+    </form>
+</body>
+
+</html>
